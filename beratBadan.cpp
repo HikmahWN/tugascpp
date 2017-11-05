@@ -10,5 +10,9 @@ int main (){
 	cin >> berat;
 	cout << "Berat Badan anda adalah : " << endl;
 	
+	if (berat < tinggi/2.5)
+	{
+		cout << "UnderWeight";
+	}
 	
 }
