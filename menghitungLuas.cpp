@@ -20,5 +20,17 @@ int main() {
 			hasil = panjang * lebar;
 			cout << "Luas Persegi Panjang adalah : " << hasil << endl;
 			break;
+			
+			cout << "\n=================================================\n";
+			
+			case 2 :
+				cout << "Masukkan Alas : ";
+				cin >> alas;
+				cout << "Masukkan Tinggi : ";
+				cin >> tinggi;
+				hasil = alas * tinggi / 2;
+				cout << "Luas Segitiga Adalah : " << hasil << endl;
+				break;
 	}
+	
 }
