@@ -14,5 +14,8 @@ int main (){
 	{
 		cout << "UnderWeight";
 	}
-	
+	else if (tinggi/2.5 <= berat <= tinggi/2.3)
+	{
+		cout << "Normal";
+	}
 }
