@@ -18,4 +18,8 @@ int main (){
 	{
 		cout << "Normal";
 	}
+	else
+	{
+		cout << "OverWeight";
+	}
 }
