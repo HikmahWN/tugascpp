@@ -14,5 +14,8 @@ int main () {
 	{
 		cout << "Angka Negatif" << endl;
 	}
-
+	else
+	{
+			cout << "Angka Nol" << endl;
+	}
 }
