@@ -10,5 +10,9 @@ int main () {
 	{
 		cout << "Angka Positif" << endl;
 	}
-	
+	else if (angka < 0)
+	{
+		cout << "Angka Negatif" << endl;
+	}
+
 }
