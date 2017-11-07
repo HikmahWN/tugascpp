@@ -10,5 +10,12 @@ int main(){
 	cin >> gajiP;
 	cout <<"Masukkan jam kerja";
 	cin >> jk;
-
+	
+	lembur = jk-40;
+	gt = (lembur * 1.5 + 40) + gajiP;
+	pajak = gt*0.15;
+	gt=gt-pajak;
+	
+	cout << "gaji bersih pegawai : " << gt << endl;
+	
 }
